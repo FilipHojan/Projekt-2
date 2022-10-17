@@ -25,5 +25,17 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var myForm = new Form2();
+            myForm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var myForm1 = new Form3();
+            myForm1.Show();
+        }
     }
 }

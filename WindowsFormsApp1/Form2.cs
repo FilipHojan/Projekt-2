@@ -29,12 +29,13 @@ namespace WindowsFormsApp1
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            
+            Form1.GlobalKomputer += 200;
+            label6.Text = Form1.GlobalKomputer.ToString();
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
@@ -125,6 +126,20 @@ namespace WindowsFormsApp1
         private void radioButton20_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for (int i = 0; i < comboBox1.Items.Count; i++)
+            {
+                string value = comboBox1.GetItemText(comboBox1.Items[i]);
+
+            }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            label2.Text = Form1.GlobalKomputer.ToString();
         }
     }
 }

@@ -354,6 +354,7 @@ namespace WindowsFormsApp1
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 25;
             this.label6.Text = "label6";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // comboBox1
             // 
@@ -366,6 +367,7 @@ namespace WindowsFormsApp1
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 26;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 
