@@ -27,7 +27,8 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            var myForm3 = new Form1();
+            myForm3.Show();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
