@@ -83,6 +83,7 @@ namespace WindowsFormsApp1
             "75",
             "144",
             "165"});
+            this.comboBox2.SelectedIndex = 0;
             this.comboBox2.Location = new System.Drawing.Point(515, 196);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
