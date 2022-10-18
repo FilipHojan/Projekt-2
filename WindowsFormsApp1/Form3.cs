@@ -37,9 +37,9 @@ namespace WindowsFormsApp1
             var selectedItem = comboBox1.SelectedItem;
             if (selectedItem == "DELL")
             {
-                if(comboBox2.selectedItem = "60")
+                if(comboBox2. selectedItem = "60")
                 {
-
+                    comboBox2.Items[comboBox2.SelectedIndex].Equals("60");
                 }
                 if (comboBox2.selectedItem = "75")
                 {
