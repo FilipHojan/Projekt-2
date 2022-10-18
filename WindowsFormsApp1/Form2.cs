@@ -282,7 +282,7 @@ namespace WindowsFormsApp1
                 label6.Text = Form1.GlobalKomputer.ToString();
                 c = 0;
             }
-            else if (selectedItem == "MacOS")
+            else if (selectedItem == "Mac OS")
             {
                 Form1.GlobalKomputer += 2000 - i;
                 label6.Text = Form1.GlobalKomputer.ToString();
@@ -393,6 +393,7 @@ namespace WindowsFormsApp1
 
         private void label6_Click(object sender, EventArgs e)
         {
+            
             label2.Text = Form1.GlobalKomputer.ToString();
         }
 
