@@ -12,6 +12,10 @@ namespace WindowsFormsApp1
 {
     public partial class Form3 : Form
     {
+        int b = 0;
+        int c = 0;
+        int i = 0;
+
         public Form3()
         {
             InitializeComponent();
@@ -30,7 +34,42 @@ namespace WindowsFormsApp1
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            var selectedItem = comboBox1.SelectedItem;
+            if (selectedItem == "DELL")
+            {
+                if(comboBox2.selectedItem = "60")
+                {
 
+                }
+                if (comboBox2.selectedItem = "75")
+                {
+
+                }
+                if ( = "144")
+                {
+
+                }
+                if (comboBox2.selectedItem = "165")
+                {
+
+                }
+            }
+            else if (selectedItem == "Microsoft")
+            {
+                
+            }
+            else if (selectedItem == "Lenovo")
+            {
+                
+            }
+            else if (selectedItem == "APPLE")
+            {
+
+            }
+            else if (selectedItem == "SAMSUNG")
+            {
+
+            }
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
