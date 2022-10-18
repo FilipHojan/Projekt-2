@@ -41,22 +41,22 @@ namespace WindowsFormsApp1
                 if (y != null && y == 1)
                 {
                     Form1.GlobalMonitor += 500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 2)
                 {
                     Form1.GlobalMonitor += 1000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 3)
                 {
                     Form1.GlobalMonitor += 1500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 4)
                 {
                     Form1.GlobalMonitor += 2000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
             else if (selectedItem2.ToString() == "Microsoft")
@@ -66,22 +66,22 @@ namespace WindowsFormsApp1
                 if (y != null && y == 1)
                 {
                     Form1.GlobalMonitor += 700;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 2)
                 {
                     Form1.GlobalMonitor += 1400;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 3)
                 {
                     Form1.GlobalMonitor += 2100;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 4)
                 {
                     Form1.GlobalMonitor += 2800;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
             else if (selectedItem2.ToString() == "Lenovo")
@@ -91,22 +91,22 @@ namespace WindowsFormsApp1
                 if (y != null && y == 1)
                 {
                     Form1.GlobalMonitor += 500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 2)
                 {
                     Form1.GlobalMonitor += 1000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 3)
                 {
                     Form1.GlobalMonitor += 1500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 4)
                 {
                     Form1.GlobalMonitor += 2000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
             else if (selectedItem2.ToString() == "APPLE")
@@ -116,22 +116,22 @@ namespace WindowsFormsApp1
                 if (y != null && y == 1)
                 {
                     Form1.GlobalMonitor += 1000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 2)
                 {
                     Form1.GlobalMonitor += 2000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 3)
                 {
                     Form1.GlobalMonitor += 3000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 4)
                 {
                     Form1.GlobalMonitor += 4000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
             else if (selectedItem2.ToString() == "SAMSUNG")
@@ -141,22 +141,22 @@ namespace WindowsFormsApp1
                 if (y != null && y == 1)
                 {
                     Form1.GlobalMonitor += 900;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 2)
                 {
                     Form1.GlobalMonitor += 1800;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 3)
                 {
                     Form1.GlobalMonitor += 2700;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (y != null && y == 4)
                 {
                     Form1.GlobalMonitor += 3600;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
         }
@@ -171,27 +171,27 @@ namespace WindowsFormsApp1
                 if (i != null && i == 1)
                 {
                     Form1.GlobalMonitor += 500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if(i != null && i == 2)
                 {
                     Form1.GlobalMonitor += 700;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 3)
                 {
                     Form1.GlobalMonitor += 500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 4)
                 {
                     Form1.GlobalMonitor += 1000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 5)
                 {
                     Form1.GlobalMonitor += 900;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
             else if (selectedItem3.ToString() == "75")
@@ -201,27 +201,27 @@ namespace WindowsFormsApp1
                 if (i != null && i == 1)
                 {
                     Form1.GlobalMonitor += 1000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 2)
                 {
                     Form1.GlobalMonitor += 1400;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 3)
                 {
                     Form1.GlobalMonitor += 1000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 4)
                 {
                     Form1.GlobalMonitor += 2000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 5)
                 {
                     Form1.GlobalMonitor += 1800;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
             else if (selectedItem3.ToString() == "144")
@@ -231,27 +231,27 @@ namespace WindowsFormsApp1
                 if (i != null && i == 1)
                 {
                     Form1.GlobalMonitor += 1500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 2)
                 {
                     Form1.GlobalMonitor += 2100;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 3)
                 {
                     Form1.GlobalMonitor += 1500;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 4)
                 {
                     Form1.GlobalMonitor += 3000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 5)
                 {
                     Form1.GlobalMonitor += 2700;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
             else if (selectedItem3.ToString() == "165")
@@ -261,27 +261,27 @@ namespace WindowsFormsApp1
                 if (i != null && i == 1)
                 {
                     Form1.GlobalMonitor += 2000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 2)
                 {
                     Form1.GlobalMonitor += 2800;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 3)
                 {
                     Form1.GlobalMonitor += 2000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 4)
                 {
                     Form1.GlobalMonitor += 4000;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
                 else if (i != null && i == 5)
                 {
                     Form1.GlobalMonitor += 3600;
-                    label1.Text = Form1.GlobalMonitor.ToString();
+                    label4.Text = Form1.GlobalMonitor.ToString();
                 }
             }
         }

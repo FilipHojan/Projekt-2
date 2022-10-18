@@ -19,8 +19,6 @@ namespace WindowsFormsApp1
 
         public Form2()
         {
-            
-
             InitializeComponent();
         }
 

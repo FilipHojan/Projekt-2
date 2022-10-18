@@ -37,5 +37,19 @@ namespace WindowsFormsApp1
             var myForm = new Form3();
             myForm.Show();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (Form1.GlobalKomputer == 0 ^ GlobalMonitor == 0 ^ GlobalCalosc == 0)
+            {
+                label1.ForeColor = Color.Red;
+            }
+            else if (GlobalKomputer != 0 && GlobalMonitor != 0 && GlobalCalosc != 0)
+            {
+                label1.ForeColor = Color.Green;
+            }
+            Form1.GlobalCalosc = Form1.GlobalKomputer + Form1.GlobalMonitor;
+            label1.Text = Form1.GlobalCalosc.ToString();
+        }
     }
 }
