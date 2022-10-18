@@ -34,8 +34,8 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var myForm1 = new Form3();
-            myForm1.Show();
+            var myForm = new Form3();
+            myForm.Show();
         }
     }
 }
