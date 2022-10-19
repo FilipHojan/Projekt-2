@@ -27,24 +27,31 @@ namespace WindowsFormsApp1
 
         }
 
+        public static int procesor = 0;
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true)
+            if (radioButton1.Checked == false && radioButton2.Checked == false && radioButton3.Checked == false && radioButton4.Checked == false)
             {
-                Form1.GlobalKomputer += 500;
+                Form2.procesor = 0;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-            if (radioButton1.Checked == false)
+            if (radioButton1.Checked == true && radioButton2.Checked == false  && radioButton3.Checked == false && radioButton4.Checked == false)
             {
-                Form1.GlobalKomputer -= 500;
+                Form2.procesor = 500;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-            if (radioButton1.Checked == true)
+            if (radioButton1.Checked == false && radioButton2.Checked == true && radioButton3.Checked == false && radioButton4.Checked == false)
             {
-                Form1.GlobalKomputer += 500;
+                Form2.procesor = 700;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
+
+
+
+
+
+           
             if (radioButton1.Checked == false)
             {
                 Form1.GlobalKomputer -= 500;

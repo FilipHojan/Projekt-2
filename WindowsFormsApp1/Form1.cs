@@ -52,5 +52,10 @@ namespace WindowsFormsApp1
             Form1.GlobalCalosc = Form1.GlobalKomputer + Form1.GlobalMonitor;
             label1.Text = Form1.GlobalCalosc.ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
