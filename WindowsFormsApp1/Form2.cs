@@ -28,9 +28,7 @@ namespace WindowsFormsApp1
         }
 
 
-
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
             if (radioButton1.Checked == true)
             {
@@ -42,24 +40,16 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 500;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton2.Checked == true)
+            if (radioButton1.Checked == true)
             {
-                Form1.GlobalKomputer += 700;
+                Form1.GlobalKomputer += 500;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-            if (radioButton2.Checked == false)
+            if (radioButton1.Checked == false)
             {
-                Form1.GlobalKomputer -= 700;
+                Form1.GlobalKomputer -= 500;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton3.Checked == true)
             {
                 Form1.GlobalKomputer += 1200;
@@ -70,10 +60,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 1200;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton4.Checked == true)
             {
                 Form1.GlobalKomputer += 1700;
@@ -87,19 +73,28 @@ namespace WindowsFormsApp1
         }
 
 
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
 
 
-
-
-
-
-
-
-
-
-
-
-        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
             if (radioButton5.Checked == true)
             {
@@ -111,10 +106,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 600;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton6_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton6.Checked == true)
             {
                 Form1.GlobalKomputer += 1500;
@@ -125,10 +116,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 1500;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton7_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton7.Checked == true)
             {
                 Form1.GlobalKomputer += 1200;
@@ -139,10 +126,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 1200;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton8_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton8.Checked == true)
             {
                 Form1.GlobalKomputer += 1700;
@@ -153,10 +136,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 1700;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton9_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton9.Checked == true)
             {
                 Form1.GlobalKomputer += 1600;
@@ -167,10 +146,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 1600;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton10_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton10.Checked == true)
             {
                 Form1.GlobalKomputer += 2500;
@@ -181,10 +156,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 2500;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton11_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton11.Checked == true)
             {
                 Form1.GlobalKomputer += 3500;
@@ -207,12 +178,47 @@ namespace WindowsFormsApp1
 
 
 
+        private void radioButton5_CheckedChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton8_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton9_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton10_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton11_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
 
 
 
 
 
-        private void radioButton18_CheckedChanged(object sender, EventArgs e)
+
+        private void groupBox3_Enter(object sender, EventArgs e)
         {
             if (radioButton18.Checked == true)
             {
@@ -224,10 +230,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 400;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton19_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton19.Checked == true)
             {
                 Form1.GlobalKomputer += 800;
@@ -238,10 +240,6 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 800;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-        }
-
-        private void radioButton20_CheckedChanged(object sender, EventArgs e)
-        {
             if (radioButton20.Checked == true)
             {
                 Form1.GlobalKomputer += 1600;
@@ -252,6 +250,29 @@ namespace WindowsFormsApp1
                 Form1.GlobalKomputer -= 1600;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
+        }
+
+
+
+
+
+
+
+
+
+        private void radioButton18_CheckedChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void radioButton19_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void radioButton20_CheckedChanged(object sender, EventArgs e)
+        {
+            
         }
 
 
@@ -287,11 +308,6 @@ namespace WindowsFormsApp1
                 i = 2000;
             }
         }
-
-
-
-
-
 
 
 
@@ -373,14 +389,15 @@ namespace WindowsFormsApp1
 
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox6.Checked == true)
+
+            if (radioButton2.Checked == true)
             {
-                Form1.GlobalKomputer += 1500;
+                Form1.GlobalKomputer += 700;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
-            if (checkBox6.Checked == false)
+            if (radioButton2.Checked == false)
             {
-                Form1.GlobalKomputer -= 1500;
+                Form1.GlobalKomputer -= 700;
                 label6.Text = Form1.GlobalKomputer.ToString();
             }
         }
@@ -410,6 +427,11 @@ namespace WindowsFormsApp1
         {
             var myForm2 =  new Form1();
             this.Close();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

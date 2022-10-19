@@ -58,6 +58,7 @@ namespace WindowsFormsApp1
             this.label2.Size = new System.Drawing.Size(292, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Częstotliwość odświeżania obrazu [Hz]";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // comboBox1
             // 
@@ -68,7 +69,6 @@ namespace WindowsFormsApp1
             "Lenovo",
             "APPLE",
             "SAMSUNG"});
-            this.comboBox1.SelectedIndex = 0;
             this.comboBox1.Location = new System.Drawing.Point(127, 196);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -83,7 +83,6 @@ namespace WindowsFormsApp1
             "75",
             "144",
             "165"});
-            this.comboBox2.SelectedIndex = 0;
             this.comboBox2.Location = new System.Drawing.Point(515, 196);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);

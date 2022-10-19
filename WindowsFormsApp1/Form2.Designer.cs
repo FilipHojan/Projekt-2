@@ -43,7 +43,6 @@ namespace WindowsFormsApp1
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.radioButton18 = new System.Windows.Forms.RadioButton();
             this.radioButton19 = new System.Windows.Forms.RadioButton();
             this.radioButton20 = new System.Windows.Forms.RadioButton();
@@ -59,12 +58,19 @@ namespace WindowsFormsApp1
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(37, 99);
+            this.radioButton1.Location = new System.Drawing.Point(6, 19);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(81, 17);
             this.radioButton1.TabIndex = 0;
@@ -76,7 +82,7 @@ namespace WindowsFormsApp1
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(37, 122);
+            this.radioButton2.Location = new System.Drawing.Point(6, 42);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(81, 17);
             this.radioButton2.TabIndex = 1;
@@ -88,7 +94,7 @@ namespace WindowsFormsApp1
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(37, 146);
+            this.radioButton3.Location = new System.Drawing.Point(6, 65);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(81, 17);
             this.radioButton3.TabIndex = 2;
@@ -100,7 +106,7 @@ namespace WindowsFormsApp1
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(37, 170);
+            this.radioButton4.Location = new System.Drawing.Point(6, 88);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(81, 17);
             this.radioButton4.TabIndex = 3;
@@ -121,7 +127,7 @@ namespace WindowsFormsApp1
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(196, 99);
+            this.radioButton5.Location = new System.Drawing.Point(10, 19);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(74, 17);
             this.radioButton5.TabIndex = 5;
@@ -133,7 +139,7 @@ namespace WindowsFormsApp1
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(196, 123);
+            this.radioButton6.Location = new System.Drawing.Point(10, 42);
             this.radioButton6.Name = "radioButton6";
             this.radioButton6.Size = new System.Drawing.Size(74, 17);
             this.radioButton6.TabIndex = 6;
@@ -145,7 +151,7 @@ namespace WindowsFormsApp1
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(196, 147);
+            this.radioButton7.Location = new System.Drawing.Point(10, 65);
             this.radioButton7.Name = "radioButton7";
             this.radioButton7.Size = new System.Drawing.Size(74, 17);
             this.radioButton7.TabIndex = 7;
@@ -157,7 +163,7 @@ namespace WindowsFormsApp1
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(196, 171);
+            this.radioButton8.Location = new System.Drawing.Point(10, 88);
             this.radioButton8.Name = "radioButton8";
             this.radioButton8.Size = new System.Drawing.Size(87, 17);
             this.radioButton8.TabIndex = 8;
@@ -169,7 +175,7 @@ namespace WindowsFormsApp1
             // radioButton9
             // 
             this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(196, 195);
+            this.radioButton9.Location = new System.Drawing.Point(10, 111);
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(74, 17);
             this.radioButton9.TabIndex = 9;
@@ -181,7 +187,7 @@ namespace WindowsFormsApp1
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(196, 219);
+            this.radioButton10.Location = new System.Drawing.Point(10, 134);
             this.radioButton10.Name = "radioButton10";
             this.radioButton10.Size = new System.Drawing.Size(74, 17);
             this.radioButton10.TabIndex = 10;
@@ -193,7 +199,7 @@ namespace WindowsFormsApp1
             // radioButton11
             // 
             this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(196, 243);
+            this.radioButton11.Location = new System.Drawing.Point(10, 157);
             this.radioButton11.Name = "radioButton11";
             this.radioButton11.Size = new System.Drawing.Size(74, 17);
             this.radioButton11.TabIndex = 11;
@@ -220,19 +226,10 @@ namespace WindowsFormsApp1
             this.label3.TabIndex = 13;
             this.label3.Text = "Pamięć";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(488, 67);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 13);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Pamięć RAM";
-            // 
             // radioButton18
             // 
             this.radioButton18.AutoSize = true;
-            this.radioButton18.Location = new System.Drawing.Point(491, 99);
+            this.radioButton18.Location = new System.Drawing.Point(6, 19);
             this.radioButton18.Name = "radioButton18";
             this.radioButton18.Size = new System.Drawing.Size(49, 17);
             this.radioButton18.TabIndex = 21;
@@ -244,7 +241,7 @@ namespace WindowsFormsApp1
             // radioButton19
             // 
             this.radioButton19.AutoSize = true;
-            this.radioButton19.Location = new System.Drawing.Point(491, 123);
+            this.radioButton19.Location = new System.Drawing.Point(6, 42);
             this.radioButton19.Name = "radioButton19";
             this.radioButton19.Size = new System.Drawing.Size(55, 17);
             this.radioButton19.TabIndex = 22;
@@ -256,7 +253,7 @@ namespace WindowsFormsApp1
             // radioButton20
             // 
             this.radioButton20.AutoSize = true;
-            this.radioButton20.Location = new System.Drawing.Point(491, 146);
+            this.radioButton20.Location = new System.Drawing.Point(6, 65);
             this.radioButton20.Name = "radioButton20";
             this.radioButton20.Size = new System.Drawing.Size(55, 17);
             this.radioButton20.TabIndex = 23;
@@ -310,11 +307,13 @@ namespace WindowsFormsApp1
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(348, 13);
+            this.label7.Font = new System.Drawing.Font("Verdana", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label7.Location = new System.Drawing.Point(335, 22);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 13);
+            this.label7.Size = new System.Drawing.Size(89, 18);
             this.label7.TabIndex = 28;
             this.label7.Text = "Komputer";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -329,7 +328,7 @@ namespace WindowsFormsApp1
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(348, 99);
+            this.checkBox1.Location = new System.Drawing.Point(348, 118);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(87, 17);
             this.checkBox1.TabIndex = 30;
@@ -340,7 +339,7 @@ namespace WindowsFormsApp1
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(348, 123);
+            this.checkBox2.Location = new System.Drawing.Point(348, 141);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(87, 17);
             this.checkBox2.TabIndex = 31;
@@ -351,7 +350,7 @@ namespace WindowsFormsApp1
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(348, 148);
+            this.checkBox3.Location = new System.Drawing.Point(348, 164);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(74, 17);
             this.checkBox3.TabIndex = 32;
@@ -362,7 +361,7 @@ namespace WindowsFormsApp1
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(348, 172);
+            this.checkBox4.Location = new System.Drawing.Point(348, 187);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(89, 17);
             this.checkBox4.TabIndex = 33;
@@ -373,7 +372,7 @@ namespace WindowsFormsApp1
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(348, 195);
+            this.checkBox5.Location = new System.Drawing.Point(348, 210);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(76, 17);
             this.checkBox5.TabIndex = 34;
@@ -384,7 +383,7 @@ namespace WindowsFormsApp1
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(348, 219);
+            this.checkBox6.Location = new System.Drawing.Point(348, 233);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(76, 17);
             this.checkBox6.TabIndex = 35;
@@ -392,11 +391,64 @@ namespace WindowsFormsApp1
             this.checkBox6.UseVisualStyleBackColor = true;
             this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton3);
+            this.groupBox1.Controls.Add(this.radioButton4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 99);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(142, 125);
+            this.groupBox1.TabIndex = 36;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.radioButton5);
+            this.groupBox2.Controls.Add(this.radioButton6);
+            this.groupBox2.Controls.Add(this.radioButton7);
+            this.groupBox2.Controls.Add(this.radioButton8);
+            this.groupBox2.Controls.Add(this.radioButton9);
+            this.groupBox2.Controls.Add(this.radioButton10);
+            this.groupBox2.Controls.Add(this.radioButton11);
+            this.groupBox2.Location = new System.Drawing.Point(170, 99);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(162, 181);
+            this.groupBox2.TabIndex = 37;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.radioButton18);
+            this.groupBox3.Controls.Add(this.radioButton19);
+            this.groupBox3.Controls.Add(this.radioButton20);
+            this.groupBox3.Location = new System.Drawing.Point(460, 99);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(145, 143);
+            this.groupBox3.TabIndex = 38;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(488, 67);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(69, 13);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Pamięć RAM";
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.checkBox6);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
@@ -409,27 +461,19 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.radioButton20);
-            this.Controls.Add(this.radioButton19);
-            this.Controls.Add(this.radioButton18);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.radioButton11);
-            this.Controls.Add(this.radioButton10);
-            this.Controls.Add(this.radioButton9);
-            this.Controls.Add(this.radioButton8);
-            this.Controls.Add(this.radioButton7);
-            this.Controls.Add(this.radioButton6);
-            this.Controls.Add(this.radioButton5);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -451,7 +495,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radioButton18;
         private System.Windows.Forms.RadioButton radioButton19;
         private System.Windows.Forms.RadioButton radioButton20;
@@ -467,5 +510,9 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label4;
     }
 }
